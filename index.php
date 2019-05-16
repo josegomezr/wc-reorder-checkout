@@ -50,3 +50,9 @@ function wc_rc_change_payment_template($template, $template_name, $args, $templa
 	}
 	return $template;
 }
+
+
+/*add_action('woocommerce_checkout_process', 'process_banks_ve_payment');
+function process_banks_ve_payment(){
+    
+}*/
